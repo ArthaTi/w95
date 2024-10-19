@@ -1,0 +1,28 @@
+{
+	"authors": [
+		"Artha"
+	],
+	"dependencies": {
+		"fluid": "~>0.7.0",
+		"raylib-d": "~>5.0.1"
+	},
+	"license": "BSL",
+	"name": "w95",
+	"targetPath": "build",
+	"copyFiles": ["resources"],
+	"configurations": [
+		{
+			"name": "default",
+			"targetType": "library",
+			"sourcePaths": ["source/w95"]
+		},
+		{
+			"name": "demo",
+			"targetType": "executable",
+			"libs": ["raylib"],
+			"lflags-linux": [
+				"-rpath=$$ORIGIN"
+			]
+ 		}
+	]
+}
