@@ -6,8 +6,10 @@
 		"fluid": "~>0.7.0",
 		"raylib-d": "~>5.0.1"
 	},
-	"license": "BSL",
+	"copyright": "Artha © 2024",
+	"license": "BSL-1.0",
 	"name": "w95",
+	"description": "A Windows 95 themed set of Fluid components.",
 	"targetPath": "build",
 	"copyFiles": ["resources"],
 	"configurations": [
